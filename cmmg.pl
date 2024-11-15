@@ -93,7 +93,7 @@ my %methods;
   }
 }
 
-my @storage_names = Class::MethodMaker::OptExt->option_names;
+my @storage_names = sort Class::MethodMaker::OptExt->option_names;
 
 # Write out methods -------------------
 
